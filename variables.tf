@@ -28,7 +28,7 @@ variable "protocol_lb_rule" {
   description = ""
 }
 
-variable "ackend_address_pool_ids" {
+variable "backend_address_pool_ids" {
   type        = string
   description = ""
 }
