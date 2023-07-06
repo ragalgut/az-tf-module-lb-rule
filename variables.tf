@@ -29,7 +29,7 @@ variable "protocol_lb_rule" {
 }
 
 variable "backend_address_pool_ids" {
-  type        = string
+  type        = list(string)
   description = ""
 }
 
